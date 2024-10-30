@@ -21,27 +21,27 @@ const SupportedCompanies = () => {
         <motion.div variants={containerVariants} initial="hidden" animate='visible'>
             <Flex className={css.SupportedCompanies} mt={32}>
                 <motion.div variants={itemVariants} >
-                    <img src={'src/assets/amazon.svg'} alt={'amazon'}/>
+                    <img src={'public/assets/amazon.svg'} alt={'amazon'}/>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                    <img src={'src/assets/dribble.svg'} alt={'dribble'}/>
+                    <img src={'public/assets/dribble.svg'} alt={'dribble'}/>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                    <img src={'src/assets/hubspot.svg'} alt={'hubspot'}/>
+                    <img src={'public/assets/hubspot.svg'} alt={'hubspot'}/>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                    <img src={'src/assets/notion.svg'} alt={'notion'}/>
+                    <img src={'public/assets/notion.svg'} alt={'notion'}/>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                    <img src={'src/assets/netflix.svg'} alt={'netflix'}/>
+                    <img src={'public/assets/netflix.svg'} alt={'netflix'}/>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                    <img src={'src/assets/zoom.svg'} alt={'zoom'}/>
+                    <img src={'public/assets/zoom.svg'} alt={'zoom'}/>
                 </motion.div>
             </Flex>
         </motion.div>

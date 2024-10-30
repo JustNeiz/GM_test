@@ -11,7 +11,7 @@ const StudiesCard: React.FC<StudiesCardProps> = ({text}) => {
             </Text>
             <Flex align={'center'}>
                 <Text c={'green.1'} fz={28}>Learn more</Text>
-                <img src={'src/assets/learnMoreButtons/learnGreen.svg'} alt={'Learn more'}/>
+                <img src={'public/assets/learnMoreButtons/learnGreen.svg'} alt={'Learn more'}/>
             </Flex>
         </Flex>
     );
