@@ -1,0 +1,11 @@
+.NavMenu {
+    align-items: center;
+}
+.NavMenu__link{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    height: 72px;
+    border-radius: 16px;
+    margin-right: 8px;
+}

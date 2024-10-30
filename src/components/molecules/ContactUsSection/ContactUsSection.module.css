@@ -1,0 +1,11 @@
+.ContactUsSection {
+    width: 100%;
+    height: 342px;
+    border-radius: 32px;
+    padding: 48px;
+    img{
+        width: 160%;
+        height: 160%;
+    }
+
+}

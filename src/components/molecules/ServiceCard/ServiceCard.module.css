@@ -1,0 +1,36 @@
+.ServiceCard {
+    width: 100%;
+    height: 310px;
+    border-radius: 32px;
+    border: solid 1px black;
+    border-bottom: 7px solid black;
+    padding: 48px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ServiceCard__textContainer{
+    width: 50%;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.ServiceCard__mainImage{
+    justify-content: flex-end;
+    width: 50%;
+}
+.ServiceCard__mainImage {
+    img{
+        width: 80%;
+        height: 80%;
+    }
+}
+.ServiceCard__title{
+    display: inline;
+    padding: 4px;
+}
+.ServiceCard:active{
+    border-bottom: 1px black solid;
+
+}

@@ -1,0 +1,8 @@
+.BlackButton{
+    border: 1px solid black;
+    width: 264px;
+    height: 68px;
+    :hover{
+        border-color: #888888;
+    }
+}

@@ -1,0 +1,8 @@
+.SupportedCompanies {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.SupportedCompanies img{
+    width: 124px;
+    height: 100%;
+}
