@@ -8,7 +8,7 @@ const HeroSection = () => {
            <Grid.Col span={6}><HeroTextContainer/></Grid.Col>
            <Grid.Col span={6}>
                <Flex justify={"flex-end"}>
-                   <img src={'public/assets/hero_image.svg'} alt={'boom'}/>
+                   <img src={'/assets/hero_image.svg'} alt={'boom'}/>
                </Flex>
            </Grid.Col>
            <Grid.Col span={12}><SupportedCompanies/></Grid.Col>

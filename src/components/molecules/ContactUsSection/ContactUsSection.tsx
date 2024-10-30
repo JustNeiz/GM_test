@@ -7,7 +7,7 @@ const ContactUsSection = () => {
         <Flex className={css.ContactUsSection} bg={'gray.1'} justify={'space-between'}>
             <ContactUsTextContainer/>
             <Flex h={'100%'} w={'40%'} justify={'center'} align={'center'}>
-                <img src={'public/assets/contact_abstraction.svg'} alt={'abstraction'}/>
+                <img src={'/assets/contact_abstraction.svg'} alt={'abstraction'}/>
             </Flex>
         </Flex>
     );
